@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurulush KG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+<header id="header">
+    <div class="logo-toggle-flex">
+      <div class="logo">
+        <img id="header-img" src="logo.png" alt="Kurulush KG logo" title="Kurulush KG">
+        <span class="logo-text">Kurulush KG</span>
+      </div>
+      <a href="#nav-bar"
+       id="menu-toggle"
+       class="menu-toggle"><span class="fas fa-bars fa-lg"></span>
+      </a>
+    </div>
+    <nav class="nav-bar-wrapper" id="nav-bar">  
+      <a href="#main-menu-toggle"
+         id="main-menu-close"
+         class="menu-close"><span class="fas fa-times fa-lg"></span>
+      </a>
+      <ul class="menu-wrapper" id="menu-wrapper">
+        <li><a href="#cta-img" class="nav-link">Home</a></li>
+        <li><a href="#clients-video" class="nav-link">Clients</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#main-menu-toggle"
+       class="backdrop"></a>
+  </header>
+  <main>
+    
+    <!--  CTA  -->
+    <section class="cta-img" id="cta-img">
+      <div class="cta-banner">
+        <div class="cta-wrapper">
+          <h1>Welcome to Kurulush KG</h1>
+          <h2>Be always in a warm house.<br><br>Best price guaranteed.</h2>
+          <div style="display: flex;">
+            <img class="gallery" src="img1.jpeg" alt="hard hats">
+            <img class="gallery" src="img2.jpeg" alt="hard hats">
+            <img class="gallery" src="img3.jpeg" alt="hard hats">
+            <img class="gallery" src="img4.jpeg" alt="hard hats">
+          </div>
+        </div><!--   end cta-wrapper     -->
+      </div><!--   end cta-banner     -->
+    </section>
+        
+    <!-- Clients-video   -->
+    <section class="clients-video" id="clients-video">
+      <div class="project-bridge">
+        <h2><span>Our company success story</span>:<br>Cebu-Cordova bridge, Philippines</h2>
+        <div class="video-wrapper">
+        <iframe id="video" height="315" src="https://www.youtube.com/embed/JdGYyiutwXE?wmode=opaque" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      </div>  
+      <div class="quote-wrapper">
+        <blockquote>
+          <p>Kurulush KG took the time to learn our project requirements to make cost-saving recommendations. Their Sales and Technical support is world-class. Responses are fast and accurate, ensuring the quick expedition of deliveries.”</p>
+        </blockquote>
+    
+      </div>
+    </section>
+    
+    <!--  About  -->
+    <section class="about" id="about">
+      <div class="about-text">
+        <h2>Experts in steel</h2>
+        <div class="about-wrapper">
+          <img src="hardhats.jpg" alt="hard hats">
+          <div class="p-text">
+            <p>Kurulush KG offers a complete solution to your steel frame building requirements.</p><br>
+            <p>From commercial to residential buildings, we can manage all projects from design through to installation, working directly from customer-supplied drawings or on-site.</p><br>
+            <p>With over 12 years of experience in the construction and steel industry, we guarantee complete satisfaction combined with competitive prices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!--  Contact  -->
+    <section class="contact" id="contact">
+      <div class="contact-wrapper">
+        <div class="form-wrapper">
+          <h2>Contact Us</h2>
+          <p>Let's talk about your next project!</p>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <label for="name" class="visuallyhidden">Enter your name</label><br>
+            <input id="name" name="name" type="text" placeholder="Name" required><br>
+            <label for="email" class="visuallyhidden">Enter your email</label><br>
+            <input id="email" name="email" type="email" placeholder="Email" required><br>
+            <label for="user-tel" class="visuallyhidden">Enter your phone number</label><br>
+            <input id="user-tel" name="user-tel" type="text" placeholder="Phone"><br>
+            <label for="message" class="visuallyhidden">Type in your message</label><br>
+            <textarea id="message" name="message" placeholder="Message" rows="10"></textarea><br>
+            <input type="submit" name="submit" id="submit" value="Submit" class="enquiry">
+          </form>
+        </div><!--  end form-wrapper    -->
+    
+        <div class="contact-details">
+          <h2>Need to reach us immediately?</h2>
+          <p>Our Technical Team are available 24/7.</p>
+          <div class="phone">
+            <h3>By phone</h3>
+            <p>Call our hotline at +(996)776 249 569.</p>
+          </div>
+          <div class="email">
+            <h3>By email</h3>
+            <p>Send an email to kurulush@gmail.com</p>
+          </div>
+          <div class="message">
+            <h3>Message</h3>
+            <p>Send us a message via our Contact form.</p>
+          </div>
+        </div><!--  end contact-details    -->
+       </div><!--  end contact-wrapper  -->
+    </section>
+  
+  </main>
+  
+  <footer >
+    <div id="footer"><p>© Copyright <span id="getyear"></span> All Rights Reserved</p>Created by Zhanbolot</div>
+    <div class="rodape" id="rodape">
+    <ul class="redes">
+        <li data-text="Facebook"><a target="blanck" class="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li data-text="Instagram"><a target="blanck" class="instagram" href="https://www.instagram.com/atamov_19/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li data-text="Github"><a target="blanck" class="githube" href="https://github.com/zhanbolotd"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+      </ul> 
+    </div> 
+</footer>
+</body>
+</html>
